@@ -1,0 +1,6 @@
+- name: Print simple message
+  debug:
+    msg: Hello There!
+
+- name: Run Hello World Script
+  script: ./hello-world.sh

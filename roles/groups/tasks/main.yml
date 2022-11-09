@@ -1,0 +1,16 @@
+- group:
+    gid: 12111
+    name: groupA
+    state: present
+- group:
+    gid: 23222
+    name: groupB
+    state: present
+- group:
+    gid: 35333
+    name: groupC
+    state: present
+- group:
+    gid: 46444
+    name: groupD
+    state: present
