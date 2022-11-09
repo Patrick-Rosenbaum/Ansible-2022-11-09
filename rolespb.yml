@@ -1,0 +1,7 @@
+- name: manage roles
+  hosts: vmdemo
+  become: yes
+  roles:
+    - groups
+    - users
+    - bash_script
